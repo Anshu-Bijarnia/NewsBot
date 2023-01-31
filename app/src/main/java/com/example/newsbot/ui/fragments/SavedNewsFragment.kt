@@ -9,8 +9,7 @@ import com.example.newsbot.R
 import com.example.newsbot.ui.NewsActivity
 import com.example.newsbot.ui.NewsViewModel
 
-
-class ArticleFragment : Fragment() {
+class SavedNewsFragment : Fragment(R.layout.fragment_saved_news) {
     lateinit var viewModel : NewsViewModel
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
